@@ -8,6 +8,7 @@ Group:		Applications/WWW
 Source0:	http://nicedit.com/nicEdit-full.zip
 # Source0-md5:	360663edaa06259ea1cbdd8f4066cbc5
 URL:		http://nicedit.com/
+BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
